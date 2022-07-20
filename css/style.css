@@ -83,7 +83,7 @@ body {
   width: 12px;
   height: 20px;
   margin-right: 8px;
-  background-image: url('/images/icon-ethereum.svg');
+  background-image: url("../assets/images/icon-ethereum.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -100,7 +100,7 @@ body {
   width: 16px;
   height: 16px;
   margin-right: 8px;
-  background-image: url("/images/icon-clock.svg");
+  background-image: url("../assets/images/icon-clock.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -132,7 +132,7 @@ body {
   margin-right: 15px;
   width: 30px;
   height: 30px;
-  background-image: url("/images/image-avatar.png");
+  background-image: url("../assets/images/image-avatar.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
