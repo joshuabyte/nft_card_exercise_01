@@ -1,0 +1,154 @@
+:root {
+  --soft-blue: #8bacda;
+  --cyan: #00fff7;
+  --very-dark-blue: #0d192b;
+  --dark-blue: #14253d;
+  --pale-blue: #2f415b;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: var(--very-dark-blue);
+}
+
+.main__card--container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 325px;
+  min-width: 300px;
+  height: auto;
+  padding: 25px;
+  background-color: var(--dark-blue);
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+.eth_image--container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.eth_image--container img {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card__title--container h1 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.card__title--container p {
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #c9ddff;
+  opacity: 70%;
+  line-height: 2.5rem;
+}
+
+.card__info--container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.card__info--container .currency,
+.date {
+  display: flex;
+  align-items: center;
+}
+
+.currency .eth_icon {
+  display: inline-block;
+  width: 12px;
+  height: 20px;
+  margin-right: 8px;
+  background-image: url("/images/icon-ethereum.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.currency p {
+  font-size: 1.5rem;
+  color: var(--cyan);
+  font-weight: 500;
+}
+
+.date .clock {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  background-image: url("/images/icon-clock.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.date p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #c9ddff;
+  opacity: 70%;
+}
+
+.line {
+    height: 1px;
+    background-color: var(--soft-blue);
+    opacity: 20%;
+    margin-bottom: 15px;
+}
+
+.card__footer--container {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.card__footer--container .profile_picture {
+  display: inline-block;
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  background-image: url('/images/image-avatar.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.card__footer--container span {
+    color: #c9ddff;
+  opacity: 70%;
+}
+
+
+
+
