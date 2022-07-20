@@ -114,17 +114,17 @@ body {
 }
 
 .line {
-    height: 1px;
-    background-color: var(--soft-blue);
-    opacity: 20%;
-    margin-bottom: 15px;
+  height: 1px;
+  background-color: var(--soft-blue);
+  opacity: 20%;
+  margin-bottom: 15px;
 }
 
 .card__footer--container {
-    display: flex;
-    align-items: center;
-    font-size: 1.5rem;
-    font-weight: 300;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
 .card__footer--container .profile_picture {
@@ -132,7 +132,7 @@ body {
   margin-right: 15px;
   width: 30px;
   height: 30px;
-  background-image: url('/images/image-avatar.png');
+  background-image: url("/images/image-avatar.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -145,10 +145,6 @@ body {
 }
 
 .card__footer--container span {
-    color: #c9ddff;
+  color: #c9ddff;
   opacity: 70%;
 }
-
-
-
-
